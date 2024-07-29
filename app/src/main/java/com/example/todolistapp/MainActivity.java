@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
+
         dialog = builder.create();
     }
 
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 layout.removeView(view);
             }
         });
+
         layout.addView(view);
     }
 }
